@@ -8,6 +8,6 @@ class ExampleLocalDataSourceImpl @Inject constructor(
 ) : ExampleLocalDataSource {
 
     override fun method() {
-
+        database.method()
     }
 }
